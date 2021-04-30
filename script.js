@@ -45,7 +45,7 @@ window.onload = function () {
         if (ax == px && ay == py) {// Snake's logic amout
             tail++;
             ax = Math.floor(Math.random()*qp);
-            ay = Math.floor(MAth.random()*qp);
+            ay = Math.floor(Math.random()*qp);
         }
     }
     function keyPush(event) {// Function from buttons
